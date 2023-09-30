@@ -31,12 +31,12 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
+   /* if (mainNav) {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
             rootMargin: '0px 0px -40%',
         });
-    };
+    };*/
 
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
@@ -51,14 +51,10 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    // Activate SimpleLightbox plugin for portfolio items
+    /* Activate SimpleLightbox plugin for portfolio items
     new SimpleLightbox({
         elements: '#portfolio a.portfolio-box'
-    });
+    });*/
 
-        // Activate SimpleLightbox plugin for portfolio items
-        new SimpleLightbox({
-            elements: '#portfolio1 a.portfolio-box'
-        });
 
 });
