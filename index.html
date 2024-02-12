@@ -134,11 +134,17 @@
     <header class="masthead">
       <div
         class="hero min-h-screen"
-        style="background-image: url('assets/img/bg-masthead.jpg')"
+        style="background-image: url('assets/img/bg-main.jpg')"
       >
         <div class="hero-overlay bg-opacity-60"></div>
-        <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
+        <div
+          class="hero-content text-center text-neutral-content flex flex-col"
+        >
+          <img
+            class="w-96"
+            src="assets/img/chapada_diamantina_tur_LOGO_colorida.png"
+          />
+          <div class="flex flex-col text-cneter justify-center text-center">
             <h1 class="mb-5 text-5xl font-bold">
               Agence de tourisme d’expérience au Brésil
             </h1>
@@ -149,16 +155,23 @@
     </header>
     <!-- About-->
 
-    <section class="flex flex-col">
-      <div class="flex flex-row">
-        <div class="flex flex-col"></div>
-        <div class="flex flex-col">
-          <h2>Présentation</h2>
-          <p>Bonjour,</p>
-          <p>Je m'appelle Kévan!</p>
+    <section class="flex flex-col text-[#344a82]">
+      <div class="flex flex-col lg:flex-row">
+        <div class="flex flex-col lg:w-1/4 p-[20px]">
+          <img class="rounded-lg w-36 lg:w-52" src="assets/img/kevan.jpg" />
+          <button
+            class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52] w-52 my-2"
+          >
+            ME CONTACTER
+          </button>
+        </div>
+        <div class="flex flex-col lg:w-3/4 justify-center text-center">
+          <h2 class="text-2xl lg:text-6xl font-bold">Présentation</h2>
+          <p class="lg:text-2xl font-bold">Bonjour,</p>
+          <p class="lg:text-2xl font-bold">Je m'appelle Kévan!</p>
         </div>
       </div>
-      <div class="flex flex-col text-center">
+      <div class="flex flex-col text-center lg:text-lg lg:font-bold">
         <p>
           Originaire de Nantes, mon histoire avec le Brésil a commencé en Avril
           2004 lors de mon premier voyage, un coup de foudre qui m'a conduit à
@@ -187,7 +200,7 @@
         Notre catalogue Chapada Diamantina Turn
       </h2>
       <section class="flex flex-col lg:flex-row justify-between m-[20px]">
-        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl">
+        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4">
           <figure class="relative h-[200px]">
             <img src="assets/img/valepati.jpg" alt="Shoes" class="w-full" />
             <div class="absolute bottom-4 left-4 text-white">
@@ -204,7 +217,7 @@
             </p>
             <div class="card-actions justify-center">
               <button
-                class="text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900"
+                class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
               >
                 EN SAVOIR PLUS
               </button>
@@ -212,7 +225,7 @@
           </div>
         </div>
 
-        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl">
+        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4">
           <figure class="relative h-[200px]">
             <img
               src="assets/img/chercheur-d-or.jpg"
@@ -233,7 +246,7 @@
             </p>
             <div class="card-actions justify-center">
               <button
-                class="text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900"
+                class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
               >
                 EN SAVOIR PLUS
               </button>
@@ -241,7 +254,7 @@
           </div>
         </div>
 
-        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl">
+        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4">
           <figure class="relative h-[200px]">
             <img
               src="assets/img/circuit-famille.jpg"
@@ -260,7 +273,7 @@
             </p>
             <div class="card-actions justify-center">
               <button
-                class="text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900"
+                class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
               >
                 EN SAVOIR PLUS
               </button>
@@ -269,7 +282,7 @@
         </div>
       </section>
       <section class="flex flex-col lg:flex-row justify-between m-[20px]">
-        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl">
+        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4">
           <figure class="relative h-[200px]">
             <img src="assets/img/cascade-jump.jpg" alt="Shoes" class="w-full" />
             <div class="absolute bottom-4 left-4 text-white">
@@ -285,7 +298,7 @@
             </p>
             <div class="card-actions justify-center">
               <button
-                class="text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900"
+                class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
               >
                 EN SAVOIR PLUS
               </button>
@@ -293,7 +306,7 @@
           </div>
         </div>
 
-        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl">
+        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4">
           <figure class="relative h-[200px]">
             <img
               src="assets/img/randonnee-marche.jpg"
@@ -313,7 +326,7 @@
             </p>
             <div class="card-actions justify-center">
               <button
-                class="text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900"
+                class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
               >
                 EN SAVOIR PLUS
               </button>
@@ -321,7 +334,7 @@
           </div>
         </div>
 
-        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl">
+        <div class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4">
           <figure class="relative h-[200px]">
             <img src="assets/img/safari-foto.jpg" alt="Shoes" class="w-full" />
             <div class="absolute bottom-4 left-4 text-white">
@@ -338,7 +351,7 @@
             </p>
             <div class="card-actions justify-center">
               <button
-                class="text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900"
+                class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
               >
                 EN SAVOIR PLUS
               </button>
