@@ -186,7 +186,7 @@
         >
           <figure class="relative h-[200px]">
             <img src="assets/img/valepati.jpg" alt="Shoes" class="w-full" />
-            <div class="absolute bottom-4 left-4 text-white">
+            <div class="absolute bottom-4 left-4 text-white text-left">
               <h3 class="text-xl font-bold">Vale do Pati</h3>
               <p class="text-base">Randonnée de 3, 4 ou 5 jours</p>
             </div>
@@ -218,7 +218,7 @@
               alt="Shoes"
               class="w-full"
             />
-            <div class="absolute bottom-4 left-4 text-white">
+            <div class="absolute bottom-4 left-4 text-white text-left">
               <h3 class="text-xl font-bold">Tourisme d’expérience</h3>
               <p class="text-base">Expérience Garimpeira</p>
             </div>
@@ -250,7 +250,7 @@
               alt="Shoes"
               class="w-full"
             />
-            <div class="absolute bottom-4 left-4 text-white">
+            <div class="absolute bottom-4 left-4 text-white text-left">
               <h3 class="text-xl font-bold">Circuit famille</h3>
               <p class="text-base">Les incontournables</p>
             </div>
@@ -277,7 +277,7 @@
         >
           <figure class="relative h-[200px]">
             <img src="assets/img/cascade-jump.jpg" alt="Shoes" class="w-full" />
-            <div class="absolute bottom-4 left-4 text-white">
+            <div class="absolute bottom-4 left-4 text-white text-left">
               <h3 class="text-xl font-bold">Cascades</h3>
               <p class="text-base">Tour à la journée</p>
             </div>
@@ -308,7 +308,7 @@
               alt="Shoes"
               class="w-full"
             />
-            <div class="absolute bottom-4 left-4 text-white">
+            <div class="absolute bottom-4 left-4 text-white text-left">
               <h3 class="text-xl font-bold">Randonnée alternative</h3>
               <p class="text-base">Dans tout le parc national</p>
             </div>
@@ -335,7 +335,7 @@
         >
           <figure class="relative h-[200px]">
             <img src="assets/img/safari-foto.jpg" alt="Shoes" class="w-full" />
-            <div class="absolute bottom-4 left-4 text-white">
+            <div class="absolute bottom-4 left-4 text-white text-left">
               <h3 class="text-xl font-bold">Safari photo</h3>
               <p class="text-base">Mini pantanal</p>
             </div>
@@ -1102,24 +1102,26 @@
       <div
         class="flex flex-col w-full lg:w-1/5 absolute right-0 h-full bg-[#344a82] text-white justify-start items-center"
       >
-        <image class="h-[42px] object-contain m-4" src="assets/img/youtube.png" />
+        <a href="https://www.youtube.com/@chapadadiamantinatur" target="_blank"><image class="h-[42px] object-contain m-4" src="assets/img/youtube.png" /></a>
         <div class="flex flex-col m-4 items-center justify-center">
-          <div class="flex flex-row">
+          <a href = "mailto:chapadadiamantinatur@gmail.com" class="flex flex-row">
           <image class="w-[42px] h-[42px]" src="assets/img/gmail.png" />
           <p class="mx-4">Gmail</p>
-        </div>
+          </a>
           <p> chapadadiamantinatur@gmail.com</p>
         </div>
-        <div class="flex flex-col m-4 items-center justify-center">
+        <a href="https://www.instagram.com/chapadadiamantinatur/?igshid=MzMyNGUyNmU2YQ%3D%3D" class="flex flex-col m-4 items-center justify-center">
           <div class="flex flex-row items-center justify-center">
             <image class="w-[42px] h-[42px]" src="assets/img/instagram.png" />
             <p class="mx-4">Instagram</p>
           </div>
 
           <p>@chapadadiamantinatur</p>
-        </div>
+        </a>
         <div class="flex flex-col items-center justify-center">
-          <image class="w-[72px] h-[72px] m-4" src="assets/img/cadastur.png"/>
+          <a href="https://cadastur.turismo.gov.br/hotsite/#!/public/capa/entrar#capaInicio">
+            <image class="w-[72px] h-[72px] m-4" src="assets/img/cadastur.png"/>
+          </a>
           <span
           class="text-[#344a82] bg-white rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 font-bold"
         >
@@ -1152,7 +1154,7 @@
       <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     <div class="modal-action">
-      <div class="flex flex-col lg:flex-row">
+      <div class="flex flex-col lg:flex-row bg-[#543604] lg:p-2">
         <div class="flex flex-col">
           <figure class="relative h-full">
             <img src="assets/img/tourisme-4.jpg" alt="Shoes" class="lg:w-[800px] w-full h-[100px] lg:h-full object-cover" />
@@ -1162,7 +1164,7 @@
             </div>
           </figure>
         </div>
-        <div class="flex flex-col font-bold text-center mx-4">
+        <div class="flex flex-col font-bold text-center lg:mx-4 bg-[#fdf6ea]">
           <p class="m-4">Explorez l'intimité du VALE DO PATI 
             en petits groupes de 6 personnes !</p>
             
@@ -1182,9 +1184,9 @@
             </ul>
             <p class="m-4">Réservez maintenant pour une expérience authentique et une aventure inoubliable au cœur du Vale do Pati !</p>
             
-        <div class="flex flex-col lg:flex-row justify-center lg:justify-between mt-4">
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-start m-4">
           <form method="dialog">
-          <button
+          <button class="mx-4"
           >
           <image class="w-[42px]" src="assets/img/return.png"/>
           </button>
@@ -1215,7 +1217,7 @@
       <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     <div class="modal-action">
-      <div class="flex flex-col lg:flex-row">
+      <div class="flex flex-col lg:flex-row bg-[#543604] lg:p-2">
         <div class="flex flex-col">
           <figure class="relative h-full">
             <img src="assets/img/tourisme-4.jpg" alt="Shoes" class="lg:w-[800px] w-full h-[100px] lg:h-full object-cover" />
@@ -1225,7 +1227,7 @@
             </div>
           </figure>
         </div>
-        <div class="flex flex-col font-bold text-center mx-4">
+        <div class="flex flex-col font-bold text-center lg:mx-4 bg-[#fdf6ea]">
           <p>Explorez l'Histoire Vivante de la 
             Chapada Diamantina:</p>
             
@@ -1242,12 +1244,11 @@
             <p>Pourquoi vivre cette expérience :
             </p>
             <p>Une fenêtre ouverte sur le passé de la Chapada Diamantina. En participant, enrichissez la préservation du patrimoine tout en plongeant dans la diversité culturelle captivante de cette région.</p>
-        <div class="flex flex-col lg:flex-row justify-center lg:justify-between mt-4">
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-start m-4">
           <form method="dialog">
-          <button
-            class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
+          <button class="mx-4"
           >
-            Fermer
+          <image class="w-[42px]" src="assets/img/return.png"/>
           </button>
         </form>
           <a
@@ -1276,7 +1277,7 @@
       <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     <div class="modal-action">
-      <div class="flex flex-col lg:flex-row">
+      <div class="flex flex-col lg:flex-row bg-[#543604] lg:p-2">
         <div class="flex flex-col">
           <figure class="relative h-full">
             <img src="assets/img/circuit-famille.jpg" alt="Shoes" class="lg:w-[800px] w-full h-[100px] lg:h-full object-cover" />
@@ -1286,7 +1287,7 @@
             </div>
           </figure>
         </div>
-        <div class="flex flex-col font-bold text-center mx-4">
+        <div class="flex flex-col font-bold text-center lg:mx-4 bg-[#fdf6ea]">
           <p class="my-4">Découvrez les merveilles cachées du Parc National de la Chapada Diamantina:
 
             un véritable paradis naturel qui vous transporte au cœur de paysages époustouflants.
@@ -1295,12 +1296,11 @@
             <p class="my-4">Explorez des grottes mystérieuses, plongez dans des eaux cristallines et laissez-vous imprégner par la magie de cet endroit spectaculaire. </p>
             
             <p class="my-4">Cliquez maintenant pour planifier votre escapade mémorable dans le décor enchanteur de la Chapada Diamantina !</p>
-        <div class="flex flex-col lg:flex-row justify-center lg:justify-between mt-4">
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-start m-4">
           <form method="dialog">
-          <button
-            class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
+          <button class="mx-4"
           >
-            Fermer
+          <image class="w-[42px]" src="assets/img/return.png"/>
           </button>
         </form>
           <a
@@ -1323,7 +1323,7 @@
       <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     <div class="modal-action">
-      <div class="flex flex-col lg:flex-row">
+      <div class="flex flex-col lg:flex-row bg-[#543604] lg:p-2">
         <div class="flex flex-col">
           <figure class="relative h-full">
             <img src="assets/img/cascade-jump.jpg" alt="Shoes" class="lg:w-[800px] w-full h-[100px] lg:h-full object-cover" />
@@ -1334,7 +1334,7 @@
             </div>
           </figure>
         </div>
-        <div class="flex flex-col font-bold text-center mx-4">
+        <div class="flex flex-col font-bold text-center lg:mx-4 bg-[#fdf6ea]">
           <p class="my-4">1 jour - 1 visite:</p>
           <p class="my-4">Plongez dans une journée d'aventure au cœur du parc national de la Chapada Diamantina, où chaque cascade révèle sa propre magie. </p>
           <p class="my-4">Nos circuits flexibles sont spécialement conçus pour des randonnées à la journée. </p>
@@ -1343,12 +1343,11 @@
 
           <p class="my-4">Réservez dès maintenant pour une journée mémorable de découvertes au sein du parc national de la Chapada Diamantina !</p>
           
-        <div class="flex flex-col lg:flex-row justify-center lg:justify-between mt-4">
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-start m-4">
           <form method="dialog">
-          <button
-            class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
+          <button class="mx-4"
           >
-            Fermer
+          <image class="w-[42px]" src="assets/img/return.png"/>
           </button>
         </form>
           <a
@@ -1371,7 +1370,7 @@
       <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     <div class="modal-action">
-      <div class="flex flex-col lg:flex-row">
+      <div class="flex flex-col lg:flex-row bg-[#543604] lg:p-2">
         <div class="flex flex-col ">
           <figure class="relative h-full">
             <img src="assets/img/randonnee-marche.jpg" alt="Shoes" class="lg:w-[800px] w-full h-[100px] lg:h-full object-cover" />
@@ -1381,7 +1380,7 @@
             </div>
           </figure>
         </div>
-        <div class="flex flex-col font-bold text-center mx-4">
+        <div class="flex flex-col font-bold text-center lg:mx-4 bg-[#fdf6ea]">
           <p class="m-4">Cette expérience est parfaite pour les amateurs de photographie animalière.</p> 
 
           <p class="m-4">Offrez-vous un panorama à couper le souffle du majestueux massif montagneux de la Serra do Sincora, qui forme le parc national de la Chapada Diamantina.</p> 
@@ -1401,12 +1400,11 @@
           hors piste dans la 
           Chapada Diamantina !</p>
           
-        <div class="flex flex-col lg:flex-row justify-center lg:justify-between mt-4">
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-start m-4">
           <form method="dialog">
-          <button
-            class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
+          <button class="mx-4"
           >
-            Fermer
+          <image class="w-[42px]" src="assets/img/return.png"/>
           </button>
         </form>
           <a
@@ -1429,7 +1427,7 @@
       <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     <div class="modal-action">
-      <div class="flex flex-col lg:flex-row">
+      <div class="flex flex-col lg:flex-row bg-[#543604] lg:p-2">
         <div class="flex flex-col">
           <figure class="relative h-full">
             <img src="assets/img/mini-pantal.jpg" alt="Shoes" class="lg:w-[800px] w-full h-[100px] lg:h-full object-cover" />
@@ -1440,7 +1438,7 @@
             </div>
           </figure>
         </div>
-        <div class="flex flex-col font-bold text-center mx-4">
+        <div class="flex flex-col font-bold text-center lg:mx-4 bg-[#fdf6ea]">
           <p class="m-4">Cette expérience est parfaite pour les amateurs de photographie animalière.</p> 
 
           <p class="m-4">Offrez-vous un panorama à couper le souffle du majestueux massif montagneux de la Serra do Sincora, qui forme le parc national de la Chapada Diamantina.</p> 
@@ -1455,12 +1453,11 @@
           
           <p class="m-2">Cliquez maintenant pour réserver votre expérience immersive au cœur de la nature.</p>
           
-        <div class="flex flex-col lg:flex-row justify-center lg:justify-between mt-4">
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-start m-4">
           <form method="dialog">
-          <button
-            class="text-white bg-[#ff8b00] hover:bg-[#e0c4a2] focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-[#a17d52]"
+          <button class="mx-4"
           >
-            Fermer
+          <image class="w-[42px]" src="assets/img/return.png"/>
           </button>
         </form>
           <a
