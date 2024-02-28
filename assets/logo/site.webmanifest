@@ -1,1 +1,24 @@
-{"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name": "Chapada Diamantinatur",
+  "short_name": "Chapada Diamantinatur",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "description": "Découvrez la majesté de Chapada Diamantina, où la nature sauvage rencontre la richesse culturelle du Brésil. Paysages époustouflants, immersion profonde dans la beauté naturelle et humaine.",
+  "owner": {
+    "name": "Kevan",
+    "role": "Patron"
+  }
+}
