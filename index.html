@@ -8,7 +8,7 @@
     />
     <meta
       name="description"
-      content="Découvrez la majesté de Chapada Diamantina, où la nature sauvage rencontre la richesse culturelle du Brésil, offrant des paysages époustouflants et une immersion profonde dans la beauté naturelle et humaine."
+      content="Découvrez la majesté de Chapada Diamantina, où la nature sauvage rencontre la richesse culturelle du Brésil. Paysages époustouflants, immersion profonde dans la beauté naturelle et humaine."
     />
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -18,9 +18,9 @@
     />
     <meta
       name="twitter:description"
-      content="Découvrez la majesté de Chapada Diamantina, où la nature sauvage rencontre la richesse culturelle du Brésil, offrant des paysages époustouflants et une immersion profonde dans la beauté naturelle et humaine."
+      content="Découvrez la majesté de Chapada Diamantina, où la nature sauvage rencontre la richesse culturelle du Brésil. Paysages époustouflants, immersion profonde dans la beauté naturelle et humaine."
     />
-    <meta name="twitter:image" content="URL_DE_VOTRE_IMAGE" />
+    <meta name="twitter:image" content="https://chapadadiamantinatur.fr/assets/logo/android-chrome-512x512.png" />
     <meta
       name="google-site-verification"
       content="mWvMpDqyHNpUkn3fKEH-klMzunfjdvDjzha8XQLCnpw"
@@ -33,8 +33,8 @@
       property="og:description"
       content="Découvrez la majesté de Chapada Diamantina, où la nature sauvage rencontre la richesse culturelle du Brésil, offrant des paysages époustouflants et une immersion profonde dans la beauté naturelle et humaine."
     />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="URL_DE_VOTRE_PAGE" />
+    <meta property="og:image" content="chapada diamantina tur" />
+    <meta property="og:url" content="https://chapadadiamantinatur.fr/assets/logo/android-chrome-512x512.png" />
     <meta name="author" content="Kevan" />
     <title>Chapada Diamantina Tur</title>
     <!-- Favicon-->
@@ -108,7 +108,7 @@
       
     </div>
     <!-- Masthead-->
-    <header class="masthead">
+    <header class="masthead" itemscope itemtype="http://schema.org/Organization">
       <div
         class="hero min-h-screen lg:relative"
         style="background-image: url('assets/img/bg-main.jpg')"
@@ -123,7 +123,7 @@
             alt="logo chapada diamantina tur"
           />
           <div class="flex flex-col text-center justify-center text-center text-white lg:absolute lg:bottom-0">
-            <h1 class="mb-5 text-5xl font-bold">
+            <h1 class="mb-5 text-5xl font-bold" itemprop="name">
               Agence de tourisme d’expérience au Brésil
             </h1>
             <p class="mb-5 text-5xl font-bold">voyager autrement !</p>
@@ -133,7 +133,7 @@
     </header>
     <!-- About-->
 
-    <section id="presentation" class="flex flex-col text-[#344a82]">
+    <section id="presentation" class="flex flex-col text-[#344a82]" itemscope itemtype="http://schema.org/Organization">
       <div class="flex flex-col lg:flex-row">
         <div
           class="flex flex-col lg:w-1/4 p-[20px] text-center justify-center items-center"
@@ -151,25 +151,25 @@
       </a>
         </div>
         <div class="flex flex-col lg:w-3/4 justify-center text-center">
-          <h2 class="text-2xl lg:text-6xl font-bold">Présentation</h2>
+          <h2 itemprop="presentation" class="text-2xl lg:text-6xl font-bold">Présentation</h2>
           <p class="lg:text-2xl font-bold lg:mt-4">Bonjour,</p>
           <p class="lg:text-2xl font-bold">Je m'appelle Kévan!</p>
         </div>
       </div>
-      <div class="flex flex-col text-left m-4 lg:text-lg lg:font-bold">
-        <p>
+      <div itemprop="description" class="flex flex-col text-left m-4 lg:text-lg lg:font-bold">
+        <p itemprop="description">
           Originaire de Nantes, mon histoire avec le Brésil a commencé en Avril
           2004 lors de mon premier voyage, un coup de foudre qui m'a conduit à
           m'installer définitivement à Bahia en 2019. Basé à Lençois, c'est là
           que j'ai fondé mon agence d'écotourisme, Chapada Diamantina Tur.
         </p>
-        <p class="my-4">
+        <p class="my-4" itemprop="objective">
           Mon objectif est de proposer une façon différente de découvrir le parc
           national de la Chapada Diamantina, mais aussi le Brésil avec mes
           partenaires situés dans les 5 régions du pays. Tout cela axé sur un
           tourisme d'expérience, écologique et hors des sentiers battus.
         </p>
-        <p class="mb-8">
+        <p class="mb-8" itemprop="values">
           Je crois en un tourisme solidaire, en collaborant avec les populations
           locales pour des expériences authentiques. En mettant en avant des
           rencontres immersives avec des passionnés locaux, francophones ou non,
@@ -180,18 +180,22 @@
       </div>
     </section>
 
-    <section id="catalogue" class="flex flex-col text-center justify-center bg-[#533604]">
-      <h2 class="text-md lg:text-4xl font-extrabold text-white my-2">
+    <section id="catalogue" class="flex flex-col text-center justify-center bg-[#533604]" itemscope itemtype="http://schema.org/ItemList">
+      <h2 class="text-md lg:text-4xl font-extrabold text-white my-2" itemprop="name">
         Notre catalogue Chapada Diamantina Tur
       </h2>
+      <meta itemprop="itemListOrder" content="http://schema.org/ItemListOrderDescending" />
+      <meta itemprop="numberOfItems" content="6" />
+    
       <section class="flex flex-col lg:flex-row justify-between m-[20px]">
         <div
           class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4 lg:mx-1"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"
         >
           <figure class="relative h-[200px]">
             <image src="assets/img/valepati.jpg" alt="Vale do Pati au Brésil" class="w-full" />
             <div class="absolute bottom-4 left-4 text-white text-left">
-              <h3 class="text-xl font-bold">Vale do Pati</h3>
+              <h3 class="text-xl font-bold" itemprop="name">Vale do Pati</h3>
               <p class="text-base">Randonnée de 3, 4 ou 5 jours</p>
             </div>
           </figure>
@@ -215,6 +219,7 @@
 
         <div
           class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4 lg:mx-1"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"
         >
           <figure class="relative h-[200px]">
             <image
@@ -223,7 +228,7 @@
               class="w-full"
             />
             <div class="absolute bottom-4 left-4 text-white text-left">
-              <h3 class="text-xl font-bold">Tourisme d’expérience</h3>
+              <h3 class="text-xl font-bold" itemprop="name">Tourisme d’expérience</h3>
               <p class="text-base">Expérience Garimpeira</p>
             </div>
           </figure>
@@ -247,6 +252,7 @@
 
         <div
           class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4 lg:mx-1"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"
         >
           <figure class="relative h-[200px]">
             <image
@@ -255,7 +261,7 @@
               class="w-full"
             />
             <div class="absolute bottom-4 left-4 text-white text-left">
-              <h3 class="text-xl font-bold">Circuit famille</h3>
+              <h3 class="text-xl font-bold" itemprop="name">Circuit famille</h3>
               <p class="text-base">Les incontournables</p>
             </div>
           </figure>
@@ -278,11 +284,12 @@
       <section class="flex flex-col lg:flex-row justify-between m-[20px]">
         <div
           class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4 lg:mx-1"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"
         >
           <figure class="relative h-[200px]">
             <image src="assets/img/cascade-jump.jpg" alt="cascade parc de la chapada diamantina" class="w-full" />
             <div class="absolute bottom-4 left-4 text-white text-left">
-              <h3 class="text-xl font-bold">Cascades</h3>
+              <h3 class="text-xl font-bold" itemprop="name">Cascades</h3>
               <p class="text-base">Tour à la journée</p>
             </div>
           </figure>
@@ -305,6 +312,7 @@
 
         <div
           class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4 lg:mx-1"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"
         >
           <figure class="relative h-[200px]">
             <image
@@ -313,7 +321,7 @@
               class="w-full"
             />
             <div class="absolute bottom-4 left-4 text-white text-left">
-              <h3 class="text-xl font-bold">Randonnée alternative</h3>
+              <h3 class="text-xl font-bold" itemprop="name">Randonnée alternative</h3>
               <p class="text-base">Dans tout le parc national</p>
             </div>
           </figure>
@@ -336,11 +344,12 @@
 
         <div
           class="card card-compact w-fit md:w-96 bg-base-100 shadow-xl my-4 lg:mx-1"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Product"
         >
           <figure class="relative h-[200px]">
             <image src="assets/img/safari-foto.jpg" alt="safari à chapada diamantina" class="w-full" />
             <div class="absolute bottom-4 left-4 text-white text-left">
-              <h3 class="text-xl font-bold">Safari photo</h3>
+              <h3 class="text-xl font-bold" itemprop="name">Safari photo</h3>
               <p class="text-base">Mini pantanal</p>
             </div>
           </figure>
@@ -364,11 +373,11 @@
       </section>
     </section>
     <!--section découvrez-->
-    <section id="offre" class="flex flex-col">
+    <section id="offre" class="flex flex-col" itemscope itemtype="http://schema.org/Product">
       <div
         class="flex flex-col text-center bg-[#344a82] text-white font-bold items-center"
       >
-        <h2 class="text-2xl lg:text-5xl m-4">
+        <h2 class="text-2xl lg:text-5xl m-4" itemprop="name">
           Découvrez l’offre "Libre Com’l'air" !
         </h2>
         <hr class="w-96 border-t-2" />
@@ -408,7 +417,7 @@
       </div>
     </section>
     <!---section les avantages  "Libre Com’l'air", c’est -->
-    <section class="flex flex-col bg-[#344a82] text-white lg:h-[600px]">
+    <section class="flex flex-col bg-[#344a82] text-white lg:h-[600px]" itemscope itemtype="http://schema.org/Product">
       <div class="flex flex-col text-center font-bold items-center">
         <h2 class="text-2xl lg:text-5xl m-4">
           Les avantages "Libre Com’l'air", c’est !
@@ -549,10 +558,11 @@
       </div>
     </section>
     <!--section youtube-->
-    <section id="regions" class="flex flex-col bg-[#008b2e]">
+    <section id="regions" class="flex flex-col bg-[#008b2e]" itemscope itemtype="http://schema.org/ItemList">
       <div class="flex flex-col lg:flex-row">
         <div
           class="card card-compact lg:card-side bg-base-100 shadow-xl rounded-none w-fit lg:w-1/2 m-4 bg-transparent"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Place"
         >
           <figure class="w-full lg:w-1/2">
             <image
@@ -563,7 +573,7 @@
           </figure>
           <div class="card-body text-white w-full lg:w-1/2">
             <a href="https://www.youtube.com/watch?v=9JKttsHJZV8&t=4s" target="_blank" class="flex flex-col lg:flex-row">
-              <h2 class="card-title mr-4">Bahia</h2>
+              <h3 class="card-title mr-4" itemprop="name">Bahia</h3>
               <span
                 class="inline-block h-12 w-12 bg-white rounded-full overflow-hidden flex items-center justify-center"
               >
@@ -583,6 +593,7 @@
         </div>
         <div
           class="card card-compact lg:card-side bg-base-100 shadow-xl rounded-none w-fit lg:w-1/2 m-4 bg-transparent"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Place"
         >
           <figure class="w-full lg:w-1/2">
             <image
@@ -593,7 +604,7 @@
           </figure>
           <div class="card-body text-white w-full lg:w-1/2">
             <a href="https://www.youtube.com/watch?v=h2nti3UAZVE&t=1s" target="_blank" class="flex flex-col lg:flex-row">
-              <h2 class="card-title mr-4">Rio de janeiro</h2>
+              <h3 class="card-title mr-4" itemprop="name">Rio de janeiro</h3>
               <span
                 class="inline-block h-12 w-12 bg-white rounded-full overflow-hidden flex items-center justify-center"
               >
@@ -616,6 +627,7 @@
       <div class="flex flex-col lg:flex-row">
         <div
           class="card card-compact lg:card-side bg-base-100 shadow-xl rounded-none w-fit lg:w-1/2 m-4 bg-transparent"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Place"
         >
           <figure class="h-[200px] w-full lg:w-1/2">
             <image
@@ -626,7 +638,7 @@
           </figure>
           <div class="card-body text-white w-full lg:w-1/2">
             <a href="https://www.youtube.com/watch?v=Nm6luChArBU" target="_blank" class="flex flex-col lg:flex-row">
-              <h2 class="card-title mr-4">Désert des Lençois Maranhenses</h2>
+              <h3 class="card-title mr-4" itemprop="name">Désert des Lençois Maranhenses</h3>
               <span
                 class="inline-block h-12 lg:h-9 w-12 bg-white rounded-full overflow-hidden flex items-center justify-center"
               >
@@ -646,6 +658,7 @@
         </div>
         <div
           class="card card-compact lg:card-side bg-base-100 shadow-xl rounded-none w-fit lg:w-1/2 m-4 bg-transparent"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Place"
         >
           <figure class="w-full lg:w-1/2">
             <image
@@ -656,7 +669,7 @@
           </figure>
           <div class="card-body text-white w-full lg:w-1/2">
             <a href="https://www.youtube.com/watch?v=se3UwsK8pi0&t=70s" target="_blank" class="flex flex-col lg:flex-row">
-              <h2 class="card-title mr-4">Amazonie</h2>
+              <h3 class="card-title mr-4" itemprop="name">Amazonie</h3>
               <span
                 class="inline-block h-12 w-12 bg-white rounded-full overflow-hidden flex items-center justify-center"
               >
@@ -677,6 +690,7 @@
       <div class="flex flex-col lg:flex-row">
         <div
           class="card card-compact lg:card-side bg-base-100 shadow-xl rounded-none w-fit lg:w-1/2 m-4 bg-transparent"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Place"
         >
           <figure class="w-full lg:w-1/2">
             <image
@@ -687,7 +701,7 @@
           </figure>
           <div class="card-body text-white w-full lg:w-1/2">
             <a href="https://www.youtube.com/watch?v=zn8ih9RTj4k&t=28s" target="_blank" class="flex flex-col lg:flex-row">
-              <h2 class="card-title mr-4">Pantanal</h2>
+              <h3 class="card-title mr-4" itemprop="name">Pantanal</h3>
               <span
                 class="inline-block h-12 w-12 bg-white rounded-full overflow-hidden flex items-center justify-center"
               >
@@ -707,6 +721,7 @@
         </div>
         <div
           class="card card-compact lg:card-side bg-base-100 shadow-xl rounded-none w-fit lg:w-1/2 m-4 bg-transparent"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Place"
         >
           <figure class="w-full lg:w-1/2">
             <image
@@ -717,7 +732,7 @@
           </figure>
           <div class="card-body text-white w-full lg:w-1/2">
             <a href="https://www.youtube.com/watch?v=zV1hgy9MjUc&t=2s" target="_blank" class="flex flex-col lg:flex-row">
-              <h2 class="card-title mr-4">Désert du Jalapão</h2>
+              <h3 class="card-title mr-4" itemprop="name">Désert du Jalapão</h3>
               <span
                 class="inline-block h-12 w-12 bg-white rounded-full overflow-hidden flex items-center justify-center"
               >
@@ -739,6 +754,7 @@
       <div class="flex flex-col lg:flex-row">
         <div
           class="card card-compact lg:card-side bg-base-100 shadow-xl rounded-none w-fit lg:w-1/2 m-4 bg-transparent"
+          itemprop="itemListElement" itemscope itemtype="http://schema.org/Place"
         >
           <figure class="w-full lg:w-1/2">
             <image
@@ -750,7 +766,7 @@
           <div class="card-body text-white w-full lg:w-1/2">
             
               <a href="https://www.youtube.com/watch?v=54FMuQhgvJQ" class="flex flex-col lg:flex-row" target="_blank">
-              <h2 class="card-title mr-4">Foz de Iguaçu</h2>
+              <h3 class="card-title mr-4" itemprop="name">Foz de Iguaçu</h3>
               <span
                 class="inline-block h-12 w-12 bg-white rounded-full overflow-hidden flex items-center justify-center"
               >
@@ -780,7 +796,7 @@
           </figure>
           <div class="card-body text-white w-full lg:w-1/2">
             <div class="flex flex-col lg:flex-row">
-              <h2 class="card-title mr-4">Eco-responsabilité</h2>
+              <h3 class="card-title mr-4">Eco-responsabilité</h3>
             </div>
             <p>
               Tous nos circuits se font dans le respect de l’environnement et
@@ -798,9 +814,11 @@
     <section id="avis"
       class="hero min-h-screen"
       style="background-image: url('assets/img/bg-main.jpg')"
+      itemscope itemtype="http://schema.org/ItemList"
+
     >
       <div class="flex flex-col w-full justify-center text-center items-center">
-        <h2 class="text-5xl font-bold text-white">Avis Google</h1>
+        <h2 class="text-5xl font-bold text-white" itemprop="name">Avis Google</h1>
         <a
         href="https://g.page/r/CbiPwp5I7t0HEBE/review"
         target="_blank"
@@ -1130,6 +1148,7 @@
     id="info"
       class="hero min-h-screen relative "
       style="background-image: url('assets/img/randonneur.jpg')"
+      itemscope itemtype="http://schema.org/PostalAddress"
     >
       <div class="absolute top-4 left-4">
         <image
@@ -1148,7 +1167,7 @@
           <image class="w-[42px] h-[42px]" src="assets/img/gmail.png" alt="icone gmail" />
           <p class="mx-4">Gmail</p>
           </a>
-          <p> chapadadiamantinatur@gmail.com</p>
+          <p itemprop="email"> chapadadiamantinatur@gmail.com</p>
         </div>
         <a href="https://www.instagram.com/chapadadiamantinatur/?igshid=MzMyNGUyNmU2YQ%3D%3D" target="_blank" class="flex flex-col m-4 items-center justify-center">
           <div class="flex flex-row items-center justify-center">
@@ -1170,7 +1189,7 @@
         </div>
         <div class="flex flex-col items-center justify-center">
           <p class="font-bold text-lg"> Address fiscal</p>
-          <p class="text-md"> rua 7 de setembro 
+          <p class="text-md" itemprop="adresse"> rua 7 de setembro 
             andarai </p>
             <p>CEP 46830-000</p>
         </div>
